@@ -1,6 +1,6 @@
 ## Learn React JS
 #### What's the project about ?
-* React native beginner project
+* React JS beginner project
 * share learning progress with supervisor
 * Use version control tool
 #### How to contribute ?
