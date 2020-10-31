@@ -1,0 +1,88 @@
+body{
+    background: #E6EFEE;
+}
+h1{
+    margin: 50px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.content{
+    margin: auto;
+    height: 400px;
+    width: 50%;
+}
+.titleText{
+    font-size: 25px;
+    margin: 10px;
+    color: #212121;
+}
+.inputWrapper{
+    margin: 5px;
+}
+.tasksContent{
+    height: fit-content;
+    padding-bottom: 20px;
+    background: white;
+    display: block;
+}
+.tasksContentHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.inputWrapper{
+    display: flex;
+    background: white;
+    margin: 10px 0 30px 0;
+    justify-content: space-between;
+}
+
+#btnAddItem {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    background: royalblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.inputWrapper input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+.inputWrapper input:focus{
+    outline: none;
+    box-shadow: 1px 2px 3px 5px lightblue;
+}
+.item{
+    display: flex;
+    background: #E6EFEE;
+    margin: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    box-shadow: 1px 3px 5px;
+}
+.itemText{
+    margin: 10px;
+}
+.item button{
+    margin: 0;
+    padding: 3px;
+    width: 40px;
+    height: 45px ;
+    background: darkred;
+    border: none;
+}
+.taskCount{
+    background: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+}
