@@ -1,0 +1,12 @@
+.bigText{
+    font-size: 1.6em;
+}
+.smallText{
+    font-size: 1.4em;
+}
+.smallText, .bigText{
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
