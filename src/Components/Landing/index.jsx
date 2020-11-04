@@ -17,9 +17,7 @@ const Landing = () => {
                     <SocialMedia medias={[FACEBOOK, INSTAGRAM, TWEETER]}/>
                 </div>
             </div>
-            <div className='landingImage'>
 
-            </div>
         </div>
     );
 };

@@ -1,4 +1,8 @@
 .App {
   text-align: center;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  width: 98%;
+  padding: 0 10px;
+  font-family: Open Sans, Verdana, sans-serif;
 }

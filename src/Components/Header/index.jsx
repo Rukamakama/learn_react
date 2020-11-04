@@ -15,7 +15,6 @@ const Header = ({name, navItems}) => {
                     </ul>
                 </div>
                 <div className='search'>
-                    {/*<input type='search' name='search'/>*/}
                     <button><FontAwesomeIcon icon='search'/></button>
                 </div>
             </div>

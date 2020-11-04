@@ -1,0 +1,37 @@
+.postForm{
+    margin: 50px 0;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form{
+    margin: 0;
+    width: 45%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upload{
+    width: 45%;
+    height: 250px;
+    background: lightgrey;
+}
+form input{
+    width: available;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: lightgrey;
+}
+form button{
+    height: 50px;
+    background: #212121;
+    color: white;
+}
+form label{
+    color: grey;
+    text-align: start;
+}

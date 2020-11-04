@@ -11,9 +11,9 @@ const POST_OWNER = 'Rukamakama';
 
 const STR_ABOUT = 'About';
 const STR_POST = 'Post';
-const STR_DESC = 'Description';
+const STR_DESC = 'DESCRIPTION';
 const STR_ADD_POST = 'Add a new post'
-const STR_TITLE = 'Title';
+const STR_TITLE = 'TITLE';
 const STR_POST_PREV = 'Post preview';
 const STR_LOGIN = 'Login';
 const STR_USERNAME = 'Username';

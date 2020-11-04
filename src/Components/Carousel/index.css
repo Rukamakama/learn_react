@@ -11,11 +11,6 @@
     width: 25%;
     object-fit: fill;
 }
-.carouselMedias{
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
 
 @media all and (max-width: 600px) {
     .image {
