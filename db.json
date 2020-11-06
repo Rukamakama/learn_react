@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Michael Rukamakama",
+      "username": "Rukamakama",
+      "email": "mic.rukama@mukeke.com",
+      "address": {
+        "number": "KK 115",
+        "street": "Kicukiro",
+        "city": "Kigali",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-1.9536",
+          "lng": "30.0606"
+        }
+      },
+      "phone": "002507855560635",
+      "website": "mukeke.com",
+      "company": {
+        "name": "Societe mukeke",
+        "catchPhrase": "goute le premier",
+        "bs": "digital solutions"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "MY VERY NEW POST",
+      "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto de la murto"
+
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "MY SECOND POST",
+      "description": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto del murto"
+
+    }
+  ]
+}
