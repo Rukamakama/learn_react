@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import './index.css'
-import Header from "../../Components/Header";
-import {POST_OWNER, STR_ABOUT, STR_POST} from "../../Constants/strings";
-import PostDisplay from "../../Components/Post";
 import SocialMedia, {FACEBOOK, INSTAGRAM, TWEETER} from "../../Components/SocialMedia";
 import PostFrom from "../../Components/PostForm";
 

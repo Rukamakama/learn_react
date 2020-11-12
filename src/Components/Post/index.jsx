@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import Title, {SIZE_SMALL} from "../Title";
+import React from 'react';
+import Title from "../Title";
 import {POST_TEXT, POST_TITLE} from "../../Constants/strings";
 import Text from "../Text";
 import SocialMedia, {FACEBOOK, INSTAGRAM} from "../SocialMedia";

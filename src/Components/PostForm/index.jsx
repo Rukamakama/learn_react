@@ -16,6 +16,8 @@ const reducer = (post, action) => {
             return {...post, description: action.value}
         case ACTION_UPDATE_PHOTO:
             return {...post, photo: action.value}
+        default:
+            return ''
     }
 }
 /*
@@ -37,10 +39,9 @@ const PostFrom = () => {
     }, [imgFile])
 
     onsubmit = () => {
-        if(post.title && post.description && imgFile){
+        if (post.title && post.description && imgFile) {
             const data = new FormData()
             data.append('photo', post.photo)
-            /*data.append('photo', imgFile) when the sever support file upload*/
             data.append('title', post.title)
             data.append('description', post.description)
             axios.post(POST_URL, data, {}).then(res => {
@@ -54,11 +55,11 @@ const PostFrom = () => {
     }
 
     const onUpload = (event) => {
-        const checkMimeType=()=>{
+        const checkMimeType = () => {
             const file = event.target.files[0]
             const types = ['image/png', 'image/jpeg', 'image/gif']
             if (types.every(type => file.type !== type)) {
-                const err = file.type+' is not a supported format\n';
+                const err = file.type + ' is not a supported format\n';
                 event.target.value = null // discard selected file
                 console.log(err)
                 return false;
@@ -66,7 +67,7 @@ const PostFrom = () => {
             return true;
         }
 
-        const maxSelectFile=()=>{
+        const maxSelectFile = () => {
             let files = event.target.files
             if (files.length !== 1) {
                 const msg = 'Only 1 image can be uploaded at a time'
@@ -76,7 +77,7 @@ const PostFrom = () => {
             }
             return true;
         }
-        if (checkMimeType() && maxSelectFile()){
+        if (checkMimeType() && maxSelectFile()) {
             setImgFile(event.target.files[0])
         }
     }
@@ -86,7 +87,9 @@ const PostFrom = () => {
             <div className='postForm'>
                 <Title text={STR_ADD_POST} size={SIZE_SMALL}/>
                 <Text text={CREAT_POST}/>
-                <form onSubmit={e => { e.preventDefault(); }}>
+                <form onSubmit={e => {
+                    e.preventDefault();
+                }}>
                     <div className='upload'>
                         <input type='file' name='postImage'
                                onChange={onUpload}/>
