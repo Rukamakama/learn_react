@@ -3,10 +3,10 @@ import './index.css'
 import MyIcon from './avatar.jpg'
 import Title, {SIZE_BIG} from "../Title";
 import Text from "../Text";
-import {BLOG_TITLE, SLOGAN} from "../../strings";
+import {BLOG_TITLE, SLOGAN} from "../../Constants/strings";
 import SocialMedia, {FACEBOOK, INSTAGRAM, TWEETER} from "../SocialMedia";
 
-const Landing = () => {
+const Landing = ({socialMedia = true}) => {
     return (
         <div className='landing'>
             <div className='landingContent'>
@@ -14,7 +14,11 @@ const Landing = () => {
                 <div className='landingText'>
                     <Title size={SIZE_BIG} text={BLOG_TITLE}/>
                     <Text text={SLOGAN}/>
-                    <SocialMedia medias={[FACEBOOK, INSTAGRAM, TWEETER]}/>
+                    {
+                        socialMedia ?
+                            <SocialMedia medias={[FACEBOOK, INSTAGRAM, TWEETER]}/>
+                            : null
+                    }
                 </div>
             </div>
 

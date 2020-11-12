@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css'
 import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {Link} from "react-router-dom";
 
 const Header = ({name, navItems}) => {
     return (
@@ -10,7 +11,9 @@ const Header = ({name, navItems}) => {
                 <div className='nav'>
                     <ul>
                         {
-                            navItems.map((item) => <li>{item}</li>)
+                            navItems.map((item) =>
+                                <li> <Link to={`/${item.toLowerCase()}`}> {item} </Link></li>
+                            )
                         }
                     </ul>
                 </div>

@@ -1,0 +1,7 @@
+const ACTION_UPDATE_TITLE = 'updateTitle'
+const ACTION_UPDATE_PHOTO = 'updateDescription'
+const ACTION_UPDATE_DESCRIPTION = 'UpdatePhoto'
+
+export {
+    ACTION_UPDATE_DESCRIPTION, ACTION_UPDATE_PHOTO, ACTION_UPDATE_TITLE
+}

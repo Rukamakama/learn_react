@@ -10,7 +10,8 @@ const BLOG_TITLE = 'Hi! This is my main blog where I publish every time';
 const POST_OWNER = 'Rukamakama';
 
 const STR_ABOUT = 'About';
-const STR_POST = 'Post';
+const STR_POST = 'POST';
+const STR_HOME = 'HOME';
 const STR_DESC = 'DESCRIPTION';
 const STR_ADD_POST = 'Add a new post'
 const STR_TITLE = 'TITLE';
@@ -18,9 +19,11 @@ const STR_POST_PREV = 'Post preview';
 const STR_LOGIN = 'Login';
 const STR_USERNAME = 'Username';
 const STR_PASSWORD = 'Password';
+const POST_URL = 'https://my-json-server.typicode.com/Rukamakama/learn_react/posts'
+const USER_URL = 'https://my-json-server.typicode.com/Rukamakama/learn_react/users'
 
 export {
     POST_TEXT, SLOGAN, CREAT_POST, POST_TITLE, BLOG_TITLE, POST_OWNER,
     STR_ABOUT, STR_POST, STR_ADD_POST, STR_DESC, STR_LOGIN, STR_PASSWORD,
-    STR_POST_PREV, STR_TITLE, STR_USERNAME
+    STR_POST_PREV, STR_TITLE, STR_USERNAME, POST_URL, USER_URL, STR_HOME
 }
