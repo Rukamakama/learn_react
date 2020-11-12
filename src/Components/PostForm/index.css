@@ -1,0 +1,42 @@
+.postForm{
+    margin: 50px 0;
+}
+.inputs{
+    margin: 0;
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.upload{
+    width: 45%;
+    height: 350px;
+    background: lightgrey;
+}
+form input, form textarea{
+    width: available;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: lightgrey;
+    padding-left: 5px;
+}
+form textarea{
+    height: 150px;
+}
+form button{
+    height: 50px;
+    background: #212121;
+    color: white;
+    border: none;
+}
+form label{
+    color: grey;
+    text-align: start;
+}

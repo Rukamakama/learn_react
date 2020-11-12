@@ -4,7 +4,7 @@ import './index.css'
 const SIZE_BIG = 'bigText';
 const SIZE_SMALL = 'smallText';
 
-const Title = ({size, text}) => {
+const Title = ({size = SIZE_SMALL, text}) => {
 
     return (
         <div className={size}>

@@ -3,8 +3,7 @@ import './index.css'
 import MyAvatar from '../Landing/avatar.jpg'
 import MyPost1 from '../Post/ai.jpg'
 import MyPost2 from '../Post/ai2.jpg'
-import DevWorld from '../Landing/dev_world.jpg'
-import SocialMedia, {FACEBOOK, INSTAGRAM, TWEETER} from "../SocialMedia";
+import DevWorld from '../../Pages/Images/dev_world.jpg'
 
 const Carousel = () => {
     return (
@@ -15,7 +14,6 @@ const Carousel = () => {
                 <img className='image' src={DevWorld} alt='dev'/>
                 <img className='image' src={MyPost2} alt='ai'/>
             </div>
-            <div className='carouselMedias'><SocialMedia medias={[FACEBOOK, TWEETER, INSTAGRAM]}/></div>
         </div>
     );
 };

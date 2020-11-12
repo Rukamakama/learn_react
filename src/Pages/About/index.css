@@ -1,0 +1,12 @@
+.firstParagraph{
+    padding: 4% 15%;
+}
+.medias{
+    padding-top: 3%;
+}
+
+@media all and (max-width: 600px) {
+    .firstParagraph {
+        padding: 4% 1%;
+    }
+}
