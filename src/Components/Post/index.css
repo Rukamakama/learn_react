@@ -1,0 +1,30 @@
+.postView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+.postContent{
+    flex: 1;
+}
+
+.postImage{
+    flex: 1;
+    height: 300px;
+    object-fit: fill;
+}
+.space{
+    width: 5%;
+}
+@media all and (max-width: 600px){
+    .postView{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .postImage{
+        order: 1;
+    }
+    .postContent{
+        padding-bottom: 10px;
+    }
+}
